@@ -7,7 +7,7 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link rel="icon" href="assets/Ganesh-vector-profile.jpeg" style="border-radius: 50%;">
+    <link rel="icon" href="assets/Ganesh-vector-profile.jpeg">
 
 </head>
 
@@ -202,18 +202,20 @@
                     below
                 </p>
 
-                <form class="form" action="">
-                    <input type="text" placeholder="Enter your name">
-                    <input type="text" placeholder="Enter your email">
-                    <textarea name="comments" id="" rows="7" placeholder="Enter your comments here"></textarea>
-                    <button>Submit now &nbsp;<i class="fa-solid fa-arrow-right"></i></button>
+                <form class="form" action="https://formsubmit.co/ganeshrtist@gmail.com" method="post">
+                    <input type="text" name="name" placeholder="Enter your name" required>
+                    <input type="email" name="email" placeholder="Enter your email" required>
+                    <textarea name="message" id="" rows="7" placeholder="Enter your comments here" required></textarea>
+                    <button type="submit">Submit now &nbsp;<i class="fa-solid fa-arrow-right"></i></button>
                 </form>
 
                 <p id="or">or</p>
                 <div class="contact-icons">
-                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ganeshrtist@gmail.com" target="_blank">
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ganeshrtist@gmail.com&su=Portfolio%20Contact&body=Hello%20Ganesh,"
+                        target="_blank">
                         <img src="assets/gmail.png" alt="Send Email">
                     </a>
+
                     <a href="https://in.linkedin.com/in/ganesh-ralla">
                         <img src="assets/linkedin.png" alt="linkedin">
                     </a>
