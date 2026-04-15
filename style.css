@@ -579,3 +579,7 @@ textarea {
         padding: 2rem 40rem;
     }
 }
+
+.projects-hover:hover{
+    color: blue;
+}
